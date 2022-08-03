@@ -1,0 +1,75 @@
+.list-container {
+  background-color: var(--tertiary);
+  margin-top: 100px;
+  width: 80%;
+  border-radius: 7px;
+  min-height: 500px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.list-title {
+  background-color: var(--primary);
+  border-radius: 7px 7px 0 0;
+  height: 70px;
+  color: var(--tertiary);
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  align-items: center;
+  font-family: "Merienda", cursive;
+}
+
+.list {
+  background-color: #fff;
+  margin: 20px 20px;
+  border-radius: 7px;
+  list-style: none;
+  padding: 5px;
+  font-size: 1.4rem;
+}
+
+.list-item {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 15px 15px 0;
+  display: flex;
+}
+
+.task-btn {
+  overflow: visible;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+  border: none;
+  transition: all 0.2s;
+}
+
+.task-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 1px 5px;
+  border: none;
+}
+
+.task-btn:active {
+  transform: translateY(1px);
+}
+
+.todo-btn {
+  background-color: rgb(253, 93, 93);
+}
+
+.complete-btn {
+  background-color: rgb(96, 226, 98);
+}
+
+.textarea {
+  font-size: 1.2rem;
+  width: 100%;
+  height: auto;
+  top: 2px;
+}
+.textarea:focus {
+  outline: none;
+}
