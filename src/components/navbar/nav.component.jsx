@@ -11,11 +11,11 @@ const Navigation = () => {
         <div className="counter-element"></div>
       </div>
       <h1 className="app-title">To Do List</h1>
-      <div className="nav-btn-container">
-        <button className="nav-btn home-btn">
+      <div className="btn-container">
+        <button className="btn nav-btn home-btn">
           <FontAwesomeIcon className="fa" icon={faHome} />
         </button>
-        <button className="nav-btn note-btn">
+        <button className="btn nav-btn note-btn">
           <FontAwesomeIcon className="fa" icon={faFile} />
         </button>
       </div>
